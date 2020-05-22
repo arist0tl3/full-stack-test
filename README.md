@@ -6,9 +6,9 @@ duties of a Full Stack Developer.
 
 ## Technologies
 
-- Express.js 4.16.x
+- Express
 - React
-- Node.js
+- Node
 - JavaScript ES6
 - Babel
 
