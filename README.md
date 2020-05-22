@@ -2,40 +2,43 @@
 
 The purpose of this coding challenge is to test a candidate's ability to
 write concise, correct, elegant, robust and efficient code carrying the
-duties of a Full Stack Developer. Also to familiarise the tools and libraries we will be using.
-
-We are looking for someone leaning more towards FrontEnd who have mastery of flexbox etc.
+duties of a Full Stack Developer.
 
 ## Technologies
 
 - Express.js 4.16.x
-- AngularJS or React or HyperApp (preferred)
-- Node.js v8.x (Use [.nvmrc](https://github.com/creationix/nvm) to manage)
+- React
+- Node.js
 - JavaScript ES6
-- Webpack or Rollup (preferred)
-- Babel or Buble (ES6 => ES5)
+- Babel
 
-## Libraries
+## Suggested Libraries
 
-- [bluebird](https://www.npmjs.com/package/bluebird) - *Optional, provides a rich Promise API
 - [axios](https://www.npmjs.com/package/axios) - *Optional, make HTTP calls easier
-
-## Testing
-
-- [jasmine](https://www.npmjs.com/package/jasmine) - Unit Test
 
 ## Bonus
 
-- Use of ES8 async/await
-- Use of WebSocket using socket.io OR uWebSockets
-- Mock responses based on environment development (for testing) vs production
+- Gracefully handle loading states
+- Use modern JS best practices
+- Optimize for first meaningful paint
 
 ## Task
 
-- Develop a simple chat room that allows multiple people to join, data should persist
-- Leaving requirements open to interpretation as a test for making correct assumptions
-- Free to use any backend database system of choice or even straight JSON
-- Caching and optimisations will be a plus
-- Making use of all the technologies at your disposal
-- It doesn't have to look pretty, avoid css frameworks, avoid floats and use flexbox at will
-- Structure and coding style will have more weight
+- Develop a simple clone of an instagram/snapchat social story
+- Allow for X number of images
+
+### Server
+
+ - Fork this sandbox: https://codesandbox.io/s/silly-tharp-88bzb
+ - Create routes to handle a request for X number of images, pulled from this API: https://aws.random.cat/meow
+ 
+ ### Client
+ 
+ - Fork this sandbox: https://codesandbox.io/s/dreamy-swanson-m0szr
+ - Create a Social Story view, eg: https://cdn.business2community.com/wp-content/uploads/2016/12/IG.jpg
+ - On load, generate a random number between 3 - 8, and fetch images from the backend
+ - Put those images into the social story view
+ - Transition between images with a timed duration
+ - Display an indicator that highlights the number of images, the current image, and animates based on duration
+ - Overlay with a default username and photo
+ - Automatically loop back to the first image
