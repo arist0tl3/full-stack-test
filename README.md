@@ -35,7 +35,7 @@ duties of a Full Stack Developer.
  ### Client
  
  - Fork this sandbox: https://codesandbox.io/s/dreamy-swanson-m0szr
- - Create a Social Story view, eg: https://cdn.business2community.com/wp-content/uploads/2016/12/IG.jpg
+ - Create a Social Story view, eg: https://imgur.com/a/PHJL6mP
  - On load, generate a random number between 3 - 8, and fetch images from the backend
  - Put those images into the social story view
  - Transition between images with a timed duration
