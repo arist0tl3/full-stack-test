@@ -12,9 +12,9 @@ duties of a Full Stack Developer.
 - JavaScript ES6
 - Babel
 
-## Suggested Libraries
+## Allowed Libraries
 
-- [axios](https://www.npmjs.com/package/axios) - *Optional, make HTTP calls easier
+- [axios](https://www.npmjs.com/package/axios)
 
 ## Bonus
 
