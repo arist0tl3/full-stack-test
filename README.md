@@ -14,8 +14,13 @@ duties of a Full Stack Developer.
 
 ## Allowed Libraries
 
+### Data
 - [axios](https://www.npmjs.com/package/axios)
 - [node-fetch](https://www.npmjs.com/package/node-fetch)
+- [cors](https://www.npmjs.com/package/cors)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+
+### Styling
 - [styled-components](https://www.npmjs.com/package/styled-components)
 - [@emotion/core](https://www.npmjs.com/package/@emotion/core)
 - [radium](https://www.npmjs.com/package/radium)
