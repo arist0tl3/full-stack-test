@@ -49,5 +49,5 @@ duties of a Full Stack Developer.
  - Put those images into the social story view
  - Transition between images with a timed duration
  - Display an indicator that highlights the number of images, the current image, and animates based on duration
- - Overlay with a default username and photo (use http://www.facetheforce.today/ for the avatar)
+ - Overlay with a default username and photo (use https://tinyfac.es/api/users for the avatar)
  - Automatically loop back to the first image
