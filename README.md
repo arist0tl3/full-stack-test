@@ -39,7 +39,7 @@ duties of a Full Stack Developer.
 ### Server
 
  - Fork this sandbox: https://codesandbox.io/s/silly-tharp-88bzb
- - Create routes to handle a request for X number of images, pulled from this API: https://aws.random.cat/meow
+ - Create routes to handle a request for X number of images, pulled from this API: https://api.thecatapi.com/v1/images/search
  
  ### Client
  
