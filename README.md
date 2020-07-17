@@ -12,25 +12,6 @@ duties of a Full Stack Developer.
 - JavaScript ES6
 - Babel
 
-## Allowed Libraries
-
-### Data
-- [axios](https://www.npmjs.com/package/axios)
-- [node-fetch](https://www.npmjs.com/package/node-fetch)
-- [cors](https://www.npmjs.com/package/cors)
-- [body-parser](https://www.npmjs.com/package/body-parser)
-
-### Styling
-- [styled-components](https://www.npmjs.com/package/styled-components)
-- [@emotion/core](https://www.npmjs.com/package/@emotion/core)
-- [radium](https://www.npmjs.com/package/radium)
-
-## Bonus
-
-- Gracefully handle loading states
-- Use modern JS best practices
-- Optimize for first meaningful paint
-
 ## Task
 
 - Develop a simple clone of an instagram/snapchat social story
@@ -51,3 +32,30 @@ duties of a Full Stack Developer.
  - Display an indicator that highlights the number of images, the current image, and animates based on duration
  - Overlay with a default username and photo (use https://tinyfac.es/api/users for the avatar)
  - Automatically loop back to the first image
+ 
+ ## Allowed Libraries
+
+### Data
+- [axios](https://www.npmjs.com/package/axios)
+- [node-fetch](https://www.npmjs.com/package/node-fetch)
+- [cors](https://www.npmjs.com/package/cors)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+
+### Styling
+- [styled-components](https://www.npmjs.com/package/styled-components)
+- [@emotion/core](https://www.npmjs.com/package/@emotion/core)
+- [radium](https://www.npmjs.com/package/radium)
+
+## Bonus
+
+- Gracefully handle loading states
+- Use modern JS best practices
+- Optimize for first meaningful paint
+
+## Code Sandbox
+
+- The server will update on file save, and you can test that updates are working by refreshing the preview
+- The client will hot reload automatically on file save
+- If you put a sandbox into an infinite loop, you can append `?runonclick=1` to the main url and reload the page to prevent the preview from opening automatically
+- You can use the preview url as the endpoint for the server
+Add dependencies using the 
